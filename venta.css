@@ -1,0 +1,28 @@
+.products{
+    padding: 50px;
+    text-align: center;
+}
+.product-contain{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15.625rem,1fr));
+    gap: 50px;
+}
+.product{
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.20) ;
+    height: min-content;
+}
+.product img{
+    width: 250px;
+   margin-bottom: 20px;
+   
+}
+.product h3{
+    font-size: 20px;
+    font-family: 'oswald', sans-serif;
+    margin-bottom: 15px;
+}
+.product p{
+    margin-bottom: 15px;
+}

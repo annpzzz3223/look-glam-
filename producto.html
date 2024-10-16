@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>look glam</title>
+    <link rel="stylesheet" href="principal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="producto.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">look glam</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="venta.html">productos</a></li>
+                   
+
+                </ul>
+            </nav>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <div class="header-contain container">
+            <div class="header-img">
+                <img src="img.accss/infor.webp" alt="">
+            </div>
+
+            <div class="header-text">
+                <h1>nuevo producto!</h1>
+                <p>rubor y tinte de labios 90% natural!</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-img">
+            <img src="img.accss/colorete 2.webp" alt="">
+        </div>
+        <div class="container-info-product">
+            <div class="conteiner-precio">
+                <span>$24,00</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="container-detalles-product">
+                <div class="foor-groups">
+                    <label for="colour">colores</label>
+                    <select name="colour" id="colour">
+                        <option disabled selected value="">tonos</option>
+                        <option value="rosa">rosa amapola</option>
+                        <option value="rojo">rojo</option>
+                        <option value="coral">coral </option>
+                        <option value="splash">splash</option>
+                    </select>
+                </div>
+            </div>
+            <div class="container-add-car">
+                <div class="container-quantity">
+                    <input type="number" name="" id="" placeholder="1" value="1" min="1" class="quantity">
+                </div>
+                <div class="btn">
+                    <!--<i class="fa-solid fa-chevron-up"></i>
+                    <i class="fa-solid fa-chevron-down"></i>-->
+                </div>
+            </div>
+            <button class="btn-car">
+                <i class="fa-solid fa-plus"></i>
+                Añadir al carrito
+            </button>
+            <div class="container-description">
+                <div class="title">
+                    <h4>Descripcion</h4>
+                    <div class="text-descr">
+                        <p>Un tinte para labios y mejillas de larga duración con una textura gelatinosa hidratante y
+                            elástica que se desliza para lograr una explosión de color transparente y modulable.</p>
+
+                        <p>Este rubor y tinte de labios es 90% natural, limpio, vegano, libre de crueldad animal, sin
+                            parabenos, sin gluten , no comedogénico y no acnegé</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-shers">
+                <span>compartir</span>
+                <div class="buttoms-social">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <section class="recoment">
+        <h2>Productos Recomendados</h2>
+        <div class="card-list-products">
+            <div class="card">
+                <div class="card-img">
+                    <img src="img.accss/primer 3.webp" alt="producto-1">
+                </div>
+                <div class="infor-card">
+                    <div class="text-product">
+                        <h3>Hydro Grip Primer</h3>
+                        <p>hydrating face primer</p>
+                    </div>
+                    <div class="precio">$38,00</div>
+                </div>
+            </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img.accss/rimel negro.webp" alt="producto-2">
+                    </div>
+                    <div class="infor-card">
+                        <div class="text-product">
+                            <h3>Defining + Volumizing Tubing Mascara</h3>
+                            <p>definition + volume + length</p>
+                        </div>
+                        <div class="precio">$28,00</div>
+                    </div>
+                </div>    
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img.accss/broncer 3.webp" alt="producto-3">
+                        </div>
+                        <div class="infor-card">
+                            <div class="text-product">
+                                <h3>Sculpt Stick</h3>
+                                <p>cream contour stick</p>
+                            </div>
+                            <div class="precio">$24,00</div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                            <div class="card-img">
+                                <img src="img.accss/polvo 2.webp" alt="producto-4">
+                            </div>
+                            <div class="infor-card">
+                                <div class="text-product">
+                                    <h3>Vegan Milk Moisturizer</h3>
+                                    <p>nourishing daily moisturizer</p>
+                                </div>
+                                <div class="precio">$38,00</div>
+                            </div>
+                    </div>   
+        </div>           
+
+    </section>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+</style>
+
+</html>
